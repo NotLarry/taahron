@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
     y = max_y / 2;
 
     clear();
-    mvprintw(y, x, "o");
+    mvprintw(y, x, "*");
     refresh();
 
     usleep(DELAY);
